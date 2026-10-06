@@ -50,5 +50,56 @@ Disabled Marcus Bennett's account, removed Production group membership, and move
 I tested password-reset permissions through Active Directory.
 Employee Workstation sign-in and shared-folder access have not yet been tested. No separate client VM was used for these scenarios.
 
-## Screenshots
-Screenshots documenting the configuration and results will be added.
+### Active Directory Structure
+Pixidust organizational units and security groups used throughout the lab.
+
+![PixieDust Active Directory security groups](pixiedust-security-groups.png.png)
+
+### Delegated Password Reset
+Successful password reset of Maya Brooks using delegated Help Desk permissions.
+
+![Maya Brooks password reset success](maya-brooks-password-reset-success.png.png)
+
+### Permission Boundary Test
+Password reset attempt on a user outside the delegated Employees OU was denied, confirming that the Help Desk permission was properly scoped.
+
+![Password reset denied outside Employees OU](alex-password-reset-denied-outside-employees-ou.png.png)
+
+### Department Transfer
+Jordan Ellis was transferred from the Sales group to the Design group while retaining Domain Users membership.
+
+**Before transfer:**
+
+![Jordan Ellis Sales membership before transfer](jordan-ellis-sales-before-transfer.png.png)
+
+**Transfer:**
+
+![Jordan Ellis transfer from Sales to Design](jordin-ellis-transfer-sales-to-design.png.png)
+
+**After transfer:**
+
+![Jordan Ellis Design membership after transfer](jordin-ellis-design-membership-after-transfer.png.png)
+
+### Employee Offboarding
+Marcus Bennett's account was disabled, Production group access was removed, and the account
+
+**Before offboarding:**
+
+![Marcus Bennett before offboarding](marcus-bennett-before-offboarding.png.png)
+
+**Account disabled:**
+
+![Marcus Bennett account disabled](marcus-bennett-account-disbaled.png.png)
+
+**Group membership updated:**
+
+![Marcus Bennett group membership](marcus-bennett-group-membership-before-offboarding.png.png)
+
+**Disabled account propeties:**
+
+![Marcus Bennett disabled account propeties](marcus-bennett-disabled-account-propeties.png.png)
+
+**Moved to Disabled-Account OU:**
+
+![Marcus Bennett Disabled Account OU](marcus-bennett-in-disabled-accounts-ou.png.png)
+

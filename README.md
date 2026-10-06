@@ -74,11 +74,11 @@ Jordan Ellis was transferred from the Sales group to the Design group while reta
 
 **Transfer:**
 
-![Jordan Ellis transfer from Sales to Design](jordin-ellis-transfer-sales-to-design.png.png)
+![Jordan Ellis transfer from Sales to Design](jordan-ellis-transfer-sales-to-design.png.png)
 
 **After transfer:**
 
-![Jordan Ellis Design membership after transfer](jordin-ellis-design-membership-after-transfer.png.png)
+![Jordan Ellis Design membership after transfer](jordan-ellis-design-membership-after-transfer.png.png)
 
 ### Employee Offboarding
 Marcus Bennett's account was disabled, Production group access was removed, and the account
@@ -97,7 +97,7 @@ Marcus Bennett's account was disabled, Production group access was removed, and 
 
 **Disabled account propeties:**
 
-![Marcus Bennett disabled account propeties](marcus-bennett-disabled-account-propeties.png.png)
+![Marcus Bennett disabled account propeties](marcus-bennett-disabled-account-properties.png.png)
 
 **Moved to Disabled-Account OU:**
 

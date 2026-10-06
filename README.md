@@ -89,7 +89,7 @@ Marcus Bennett's account was disabled, Production group access was removed, and 
 
 **Account disabled:**
 
-![Marcus Bennett account disabled](marcus-bennett-account-disbaled.png.png)
+![Marcus Bennett account disabled](marcus-bennett-account-disabled.png.png)
 
 **Group membership updated:**
 
